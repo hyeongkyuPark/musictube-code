@@ -12,19 +12,19 @@
 
 #
 ### <메인 페이지>
-<img src="./images/1.png">
+<img src="./public/images/1.png">
 - 디자인은 넷플릭스 메인 페이지를 모티브로 하였고, 영상 제목과 조회수, 좋아요수, 댓글수를 불러와 표시하였습니다.
 <br />
 <br />
 <br />
 
 ### <영상 보기/숨기기>
-<img src="./images/2.png">
+<img src="./public/images/2.png">
 - 하단 컨트롤러의 눈동자 아이콘을 클릭하여 유튜브 영상을 on/off 할 수 있습니다.
 <br />
 <br />
 <br />
 
 ### <검색 기능>
-<img src="./images/3.png">
+<img src="./public/images/3.png">
 - 특정 검색어로 검색하여 영상을 찾을 수 있습니다.
