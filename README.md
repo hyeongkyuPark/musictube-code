@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Musictube 프로젝트
+## 사용기술
+- 프론트 : React, Typescript, redux, redux-saga, redux-toolkit, styled-components, react-youtube
+- API : YouTube Data API
+- 기타 : git, gihub pages
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#
+## musictube 란?
+- 유튜브의 영상들 중에서 음악에 해당하는 영상을 검색하고 플레이할 수 있는 어플리케이션입니다.
+- 유튜브 API를 활용하여 제작한 간단한 어플리케이션 입니다.
+- 개발 진행중이며, 추가할 기능으로는 플레이 리스트 기능과 러닝타임 프로그래스바 기능이 있습니다.
 
-## Available Scripts
+#
+### <메인 페이지>
+<img src="./images/1.png">
+- 디자인은 넷플릭스 메인 페이지를 모티브로 하였고, 영상 제목과 조회수, 좋아요수, 댓글수를 불러와 표시하였습니다.
+<br />
+<br />
+<br />
 
-In the project directory, you can run:
+### <영상 보기/숨기기>
+<img src="./images/2.png">
+- 하단 컨트롤러의 눈동자 아이콘을 클릭하여 유튜브 영상을 on/off 할 수 있습니다.
+<br />
+<br />
+<br />
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### <검색 기능>
+<img src="./images/3.png">
+- 특정 검색어로 검색하여 영상을 찾을 수 있습니다.
